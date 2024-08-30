@@ -1,2 +1,56 @@
+/* styles.css */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
 
-/* Your CSS Code here. */
+.video-container {
+  position: relative;
+}
+
+.video {
+  width: 765px;
+  height: 430px;
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.player__button {
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.rewind, .skip {
+  cursor: pointer;
+  margin: 0 5px;
+}
+
+.progress {
+  flex: 1;
+  margin: 0 10px;
+}
+
+.progress__filled {
+  background: #ff0000;
+  height: 10px;
+  width: 0;
+}
+
+.volume, .playbackSpeed {
+  width: 100px;
+  margin: 0 10px;
+}
+
+.speed-bar {
+  font-size: 18px;
+}
