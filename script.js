@@ -1,8 +1,8 @@
 // script.js
 
 document.addEventListener('DOMContentLoaded', () => {
-  const video = document.querySelector('.video');
-  const playButton = document.querySelector('.player__button');
+  const video = document.querySelector('.player__video');
+  const playButton = document.querySelector('.toggle');
   const rewindButton = document.querySelector('.rewind');
   const skipButton = document.querySelector('.skip');
   const progressBar = document.querySelector('.progress');
